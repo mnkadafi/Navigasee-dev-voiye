@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".mvvm.dashboard_supir_sobat.popup.PopUpKeSupir">
+
+    <!--TODO : Integrate databinding, mvvm, content description, accesibility ignore-->
+
+    <ImageView
+        android:id="@+id/btn_close"
+        android:layout_width="@dimen/dimen_16dp"
+        android:layout_height="@dimen/dimen_16dp"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/ic_close_24dp" />
+
+    <ImageView
+        android:layout_width="@dimen/dimen_72dp"
+        android:layout_height="@dimen/dimen_72dp"
+        android:layout_marginBottom="@dimen/dimen_16dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/chil_hand_on_the_hand_of_an_adult" />
+
+    <TextView
+        android:id="@+id/textViewTrayek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="@dimen/dimen_24dp"
+        android:text="@string/popup_ke_supir"
+        android:textSize="@dimen/text_14sp"
+        android:textColor="@android:color/black"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_saya_akan_bantu"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:textStyle="bold"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:text="@string/saya_akan_bantu" />
+
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".mvvm.confirm_masuk_kendaraan.ConfirmMasukKendaraanActivitiy">
+
+    <TextView
+        android:id="@+id/tv_sobat_waiting_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/apakah_anda_sudah_masuk_kendaraan"
+        android:textColor="@color/fontBlue"
+        android:textSize="@dimen/text_24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_belum"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_sudah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/sudah"
+        android:textStyle="bold"
+        app:backgroundTint="#2B9AF3"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_belum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_belum"
+        app:layout_constraintTop_toTopOf="@+id/btn_belum" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_belum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="@string/belum"
+        android:textStyle="bold"
+        app:backgroundTint="#2B9AF3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_sudah"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_sobat_waiting_label" />
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_sobat_waiting_message"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginTop="@dimen/dimen_8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:fontFamily="sans-serif-light"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Tap dua kali untuk memberitahu bahwa Anda sudah berada di dalam kendaraan"-->
+    <!--android:textColor="@color/fontBlue"-->
+    <!--android:textSize="@dimen/text_20sp"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/tv_sobat_waiting_label" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

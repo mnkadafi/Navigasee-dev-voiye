@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wait_label">Please Wait</string>
+    <string name="wait_description">Waiting for a response from the nearest voiye buddy</string>
+    <string name="popup_bantuan_datang"><![CDATA[Someone around you needs help using the city transport <font color="#2B9AF3">%1$s</font> to get to <font color="#2B9AF3">%2$s.</ fonts>]]></string>
+    <string name="popup_ke_supir"><![CDATA[Someone wants to take your public transportation to get to <font color="#2B9AF3">%1$s.</font>]]></string>
+    <string name="popup_terima_poin"><![CDATA[You received as many points as <font color="#2B9AF3">%1$s.</font> Points.<br>Thanks for your help.]]></string>
+    <string name="beg_permission"><![CDATA[<p>      Please grant permission for Voiye to require access: </p> <ul>      <li><b>Camera</b> and <b>microphone</b> to use the video call feature</li>      <li><b>GPS</b> to use the location feature.</li> </ul>]]></string>
+    <string name="beg_permission_no_html">Please grant permission for Voiye requires access: Camera and microphone to use video call feature, GPS to use location feature.</string>
+
+    <string name="using_gps">Voiye is using your GPS.</string>
+    <string name="text_close">Close</string>
+    <string name="notificationChannel">CHANNEL FRONT SERVICE</string>
+    <string name="notificationChannelName">The front-facing service for notifications channel</string>
+    <string name="notificationChannelDesc">Channel front liaison service</string>
+    <string name="notificationTitleConnectedService">Voiye is connected.</string>
+    <string name="notificationTitleDisconnectedService">Voiye disconnected.</string>
+    <string name="bantu_dengan_video_call">Help with video calls</string>
+    <string name="bantu_dengan_mendatangi_langsung">Help by visiting directly</string>
+    <string name="yes">Yes, allow it.</string>
+    <string name="thanks">Thank you</string>
+    <string name="login_as_voiye_buddy">Log in as Voiye Buddy</string>
+    <string name="login_as_driver_public_transport">Log in as a Transport Driver</string>
+    <string name="login_as_blind">Log in as Visually Impaired</string>
+    <string name="apakah_anda_sudah_masuk_kendaraan">Have You Entered Public Transportation?</string>
+    <string name="sudah">Yes, I have</string>
+    <string name="belum">No, I have not</string>
+    <string name="poin_terkumpul">Points accumulated</string>
+    <string name="tunanetra_yang_dibantu">Visually impaired people who have been assisted</string>
+    <string name="tambah_poin_yang_anda_miliki_dengan_membantu_tunanetra_dalam_menggunakan_angkutan_umum_jangan_lewatkan_notifikasinya">
+        Increase the points you have by helping the visually impaired in using public transportation. Don\'t miss the notification!
+    </string>
+    <string name="tukarkan_poinmu_dan_dapatkan_hadiahnya">Redeem Your Points and Get Rewards!</string>
+    <string name="tukarkan_poin">Redeem Points</string>
+    <string name="berhenti">Stop</string>
+    <string name="mulai">Start</string>
+    <string name="trayek_angkutan_umum_yang_tersedia">Available Public Transport Routes</string>
+    <string name="lokasi_anda">Your Location</string>
+    <string name="saya_akan_bantu">I will help</string>
+    <string name="kembali">back</string>
+    <string name="tentukan_bantuan_yang_akan_diberikan">Decide which assistance to provide!</string>
+    <string name="antar_sampai_tujuan">Deliver to destination</string>
+    <string name="bantu_sampai_naik_kendaraan">Help to get on the vehicle</string>
+    <string name="rute_yang_dilalui">Route traversed</string>
+    <string name="akhiri_perjalanan">End trip</string>
+    <string name="masukan_lokasi_yang_anda_tuju">Enter the location you want to go</string>
+    <string name="mikrofon">Microphone</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="perjalanan_selesai">The trip is complete!</string>
+    <string name="akhiri_sesi">End Session</string>
+    <string name="point_sudah_diberikan_pada_sahabat_navigasee_atau_sopir">
+        Points have been awarded to the voiye buddy or driver
+    </string>
+    <string name="menunggu_lokasi_gps">Waiting GPS Location…</string>
+    <string name="anda_tidak_memberikan_jawaban_selama_15_detik">You\'re not giving answer for 15 second!</string>
+    <string name="selamat_berkegiatan">"Have a nice day!"</string>
+    <string name="gagal_mengakhiri_sesi">"Failed to end session!"</string>
+    <string name="mohon_tunggu_di_tempat_ada_yang_akan_datang_untuk_membantu_anda">Please wait on the spot, someone will come to help you.</string>
+    <string name="voiye_buddy_membantu_anda_dengan_panggilan_video_panggilan_video_diaktifkan">Voiye Buddy helps you with video calls. Video call activated!</string>
+    <string name="tidak_ada_kendaraan_umum_tersedia">No public transportation available!</string>
+    <string name="tidak_ada_pengguna_aktif_yang_dapat_diminta_bantuan">There are no active users to ask for help</string>
+    <string name="lanjutkan_perjalanan">Continue Trip</string>
+
+</resources>

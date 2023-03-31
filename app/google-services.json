@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "1020789326859",
+    "firebase_url": "https://navigasee-1561719647676.firebaseio.com",
+    "project_id": "navigasee-1561719647676",
+    "storage_bucket": "navigasee-1561719647676.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020789326859:android:ac2959481001a977",
+        "android_client_info": {
+          "package_name": "ac.id.unikom.codelabs.navigasee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020789326859-8gar197ra95u944im2r64knbck40tllu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ac.id.unikom.codelabs.navigasee",
+            "certificate_hash": "f889432ffc67afcec2c2b67e0984fda2773e2c76"
+          }
+        },
+        {
+          "client_id": "1020789326859-8b91ing5erhhnar64pfs5bt8338koh1t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ac.id.unikom.codelabs.navigasee",
+            "certificate_hash": "23c9d2b233d3adb5ee0404efbbfe37545a62d55a"
+          }
+        },
+        {
+          "client_id": "1020789326859-1r6auq72a5g64fngkt94c48jmlqq09ab.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ac.id.unikom.codelabs.navigasee",
+            "certificate_hash": "b5fae70ec6e8815c51a9e812f6cefea436bf0b37"
+          }
+        },
+        {
+          "client_id": "1020789326859-ct2cmjbuno3c35eg2nii1lbpjjesonv4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ac.id.unikom.codelabs.navigasee",
+            "certificate_hash": "ec1fb6422be5a1e09e9b9d7621c7be0c661c11a5"
+          }
+        },
+        {
+          "client_id": "1020789326859-vubn0a1j6la7pdma9v0ldop97pod90ie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ac.id.unikom.codelabs.navigasee",
+            "certificate_hash": "c1a97e84d9abf1df41aeb481dc876064f2882dea"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB79V28G9lfL8CxGajnyPcU1y3wOqFvIwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020789326859-fpria03v3oqm6f9k2bnsag88f02bflg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

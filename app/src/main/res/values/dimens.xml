@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Per Material Design specs: -->
+    <!-- https://material.io/design/components/buttons-floating-action-button.html#specs -->
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Padding on the bottom of a screen so that the FAB won't overlap scrolled text. -->
+    <dimen name="fab_bottom_padding">72dp</dimen>
+
+    <dimen name="app_bar_height">200dp</dimen>
+
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+
+    <dimen name="plant_item_image_height">100dp</dimen>
+
+    <dimen name="navigation_drawer_header_height">192dp</dimen>
+    <dimen name="navigation_drawer_header_padding">16dp</dimen>
+    <dimen name="navigation_drawer_image_width">100dp</dimen>
+
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_16dp">16dp</dimen>
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="dimen_32dp">32dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="dimen_48dp">48dp</dimen>
+    <dimen name="dimen_56dp">56dp</dimen>
+    <dimen name="dimen_64dp">64dp</dimen>
+    <dimen name="dimen_72dp">72dp</dimen>
+    <dimen name="dimen_120dp">120dp</dimen>
+
+    <dimen name="boxsize">50dp</dimen>
+
+    <dimen name="text_12sp">12sp</dimen>
+    <dimen name="text_14sp">14sp</dimen>
+    <dimen name="text_16sp">16sp</dimen>
+    <dimen name="text_18sp">18sp</dimen>
+    <dimen name="text_20sp">20sp</dimen>
+    <dimen name="text_24sp">24sp</dimen>
+    <dimen name="dimen_160dp">160dp</dimen>
+</resources>

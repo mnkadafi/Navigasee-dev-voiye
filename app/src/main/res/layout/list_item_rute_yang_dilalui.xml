@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.text.Html" />
+
+        <import type="android.os.Build" />
+
+        <variable
+            name="mData"
+            type="ac.id.unikom.codelabs.navigasee.data.model.list_transportation_available.StepsItem" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:orientation="vertical"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_8dp">
+
+            <TextView
+                android:id="@+id/keterangan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@{mData.travelMode.equals(`TRANSIT`) ? `Naik ` + mData.transitDetails.line.agencies.get(0).name + ` dengan trayek ` + mData.transitDetails.line.name + ` dari ` + mData.transitDetails.departureStop.name + ` sampai ` + mData.transitDetails.arrivalStop.name + `.` : Build.VERSION.SDK_INT  >= Build.VERSION_CODES.N ? Html.fromHtml(mData.htmlInstructions, Html.FROM_HTML_MODE_COMPACT) : Html.fromHtml(mData.htmlInstructions)}"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/menit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@{mData.duration.text}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/keterangan"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/keterangan"
+                app:layout_constraintTop_toBottomOf="@+id/keterangan" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Projects/AndroidStudioProjects/Navigasee_new/app/src/main/res/layout/activity_login.xml" value="0.4" />
+        <entry key="..\:/Projects/AndroidStudioProjects/Navigasee_new/app/src/main/res/layout/activity_sobat_waiting_activitiy.xml" value="0.24003623188405798" />
+        <entry key="app/src/main/res/layout/activity_confirm_masuk_kendaraan.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_dashboard_supir_sobat.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_list_search.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_list_transportation_available.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_my_location.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_pilih_hadiah.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_pop_up_bantuan_datang.xml" value="0.41978149414062504" />
+        <entry key="app/src/main/res/layout/activity_pop_up_ke_supir.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_pop_up_pilih_jenis_bantuan.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_pop_up_terima_poin.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_rute_yang_dilalui.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_search_location.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_sobat_waiting_activitiy.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/activity_video_call.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/fragment_video_call.xml" value="0.3200637817382812" />
+        <entry key="app/src/main/res/layout/item_tujuan.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/list_item_rute_yang_dilalui.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/list_item_transportation_available.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/modal_beg_permission.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/popup_perjalanan_end.xml" value="0.3088768115942029" />
+        <entry key="app/src/main/res/layout/popup_poin_sudah_diberikan.xml" value="0.3088768115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

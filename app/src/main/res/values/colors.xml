@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2B9AF3</color>
+    <color name="colorPrimaryDark">#2165CA</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="fontBlue">#2196F3</color>
+
+    <color name="prof_pic_placeholder">#C7C7C7</color>
+
+    <color name="dashboard_text_color">#393939</color>
+</resources>

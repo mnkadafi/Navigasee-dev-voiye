@@ -1,0 +1,67 @@
+<resources>
+    <string name="wait_label">Mohon Tunggu</string>
+
+    <string name="popup_bantuan_datang"><![CDATA[Seseorang di sekitar Anda membutuhkan bantuan untuk menggunakan angkutan kota <font color="#2B9AF3">%1$s</font> untuk menuju <font color="#2B9AF3">%2$s.</font>]]></string>
+    <string name="popup_ke_supir"><![CDATA[Seseorang hendak menaiki transportasi umum yang Anda kendarai untuk menuju <font color="#2B9AF3">%1$s.</font>]]></string>
+    <string name="popup_terima_poin"><![CDATA[Anda menerima poin sebanyak <font color="#2B9AF3">%1$s.</font> Poin.<br>Terima kasih atas bantuan Anda.]]></string>
+    <string name="beg_permission"><![CDATA[<p>
+    Mohon memberikan izin untuk Voiye memerlukan akses:
+</p>
+<ul>
+    <li><b>Kamera</b> dan <b>mikrofon</b> untuk menggunakan fitur video call</li>
+    <li><b>GPS</b> untuk menggunakan fitur lokasi.</li>
+</ul>]]></string>
+
+    <string name="beg_permission_no_html">Mohon memberikan izin untuk Voiye memerlukan akses: Kamera dan mikrofon untuk menggunakan fitur video call, GPS untuk menggunakan fitur lokasi.</string>
+
+    <string name="using_gps">Voiye sedang menggunakan GPS Anda.</string>
+    <string name="text_close">Tutup</string>
+    <string name="notificationChannel">CHANNEL LAYANAN BAGIAN DEPAN</string>
+    <string name="notificationChannelName">Layanan penghubung bagian depan notifications channel</string>
+    <string name="notificationChannelDesc">Layanan penghubung bagian depan channel</string>
+    <string name="notificationTitleConnectedService">Voiye sedang terhubung.</string>
+    <string name="notificationTitleDisconnectedService">Voiye terputus.</string>
+    <string name="bantu_dengan_video_call">Bantu dengan video call</string>
+    <string name="bantu_dengan_mendatangi_langsung">Bantu dengan mendatangi langsung</string>
+    <string name="yes">Ya, izinkan.</string>
+    <string name="thanks">Terima kasih</string>
+    <string name="wait_description">Menunggu respon bantuan dari voiye buddy terdekat</string>
+    <string name="login_as_voiye_buddy">Masuk Sebagai Voiye Buddy</string>
+    <string name="login_as_driver_public_transport">Masuk Sebagai Sopir Angkutan</string>
+    <string name="login_as_blind">Masuk Sebagai Tunanetra</string>
+    <string name="apakah_anda_sudah_masuk_kendaraan">Apakah Anda Sudah Masuk Kendaraan?</string>
+    <string name="sudah">Sudah</string>
+    <string name="belum">Belum</string>
+    <string name="poin_terkumpul">Poin terkumpul</string>
+    <string name="tunanetra_yang_dibantu">Tunanetra yang dibantu</string>
+    <string name="tambah_poin_yang_anda_miliki_dengan_membantu_tunanetra_dalam_menggunakan_angkutan_umum_jangan_lewatkan_notifikasinya">Tambah poin yang Anda miliki dengan membantu tunanetra dalam menggunakan angkutan umum. Jangan lewatkan notifikasinya!</string>
+    <string name="tukarkan_poinmu_dan_dapatkan_hadiahnya">Tukarkan Poinmu dan Dapatkan Hadiahnya!</string>
+    <string name="tukarkan_poin">Tukarkan Poin</string>
+    <string name="berhenti">Berhenti</string>
+    <string name="mulai">Mulai</string>
+    <string name="trayek_angkutan_umum_yang_tersedia">Trayek Angkutan Umum Yang Tersedia</string>
+    <string name="lokasi_anda">Lokasi Anda</string>
+    <string name="saya_akan_bantu">Saya akan bantu</string>
+    <string name="kembali">kembali</string>
+    <string name="tentukan_bantuan_yang_akan_diberikan">Tentukan bantuan yang akan diberikan!</string>
+    <string name="antar_sampai_tujuan">Antar sampai tujuan</string>
+    <string name="bantu_sampai_naik_kendaraan">Bantu sampai naik kendaraan</string>
+    <string name="rute_yang_dilalui">Rute yang dilalui</string>
+    <string name="akhiri_perjalanan">Akhiri Perjalanan</string>
+    <string name="masukan_lokasi_yang_anda_tuju">Masukan lokasi yang anda tuju</string>
+    <string name="mikrofon">Mikrofon</string>
+    <string name="n_a_v_i_g_a_s_e_e" translatable="false">V O I Y E</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="perjalanan_selesai">Perjalanan selesai!</string>
+    <string name="akhiri_sesi">Akhiri Sesi</string>
+    <string name="point_sudah_diberikan_pada_sahabat_navigasee_atau_sopir">Point sudah diberikan pada voiye buddy atau sopir</string>
+    <string name="menunggu_lokasi_gps">Menunggu lokasi GPS…</string>
+    <string name="anda_tidak_memberikan_jawaban_selama_15_detik">Anda tidak memberikan jawaban selama 15 detik!</string>
+    <string name="selamat_berkegiatan">Selamat berkegiatan!</string>
+    <string name="gagal_mengakhiri_sesi">Gagal mengakhiri sesi!</string>
+    <string name="mohon_tunggu_di_tempat_ada_yang_akan_datang_untuk_membantu_anda">Mohon tunggu di tempat, ada yang akan datang untuk membantu anda.</string>
+    <string name="voiye_buddy_membantu_anda_dengan_panggilan_video_panggilan_video_diaktifkan">Voiye Buddy membantu Anda dengan panggilan video. Panggilan video diaktifkan!</string>
+    <string name="tidak_ada_kendaraan_umum_tersedia">Tidak ada kendaraan umum tersedia!</string>
+    <string name="tidak_ada_pengguna_aktif_yang_dapat_diminta_bantuan">Tidak ada pengguna aktif yang dapat diminta bantuan</string>
+    <string name="lanjutkan_perjalanan">Lanjutkan Perjalanan</string>
+</resources>

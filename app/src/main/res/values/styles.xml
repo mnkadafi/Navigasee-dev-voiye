@@ -1,0 +1,54 @@
+<resources>
+
+    <style name="alert" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseAppTheme" />
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <style name="button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/dimen_56dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/fontBlue</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="strokeColor">@color/fontBlue</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="backgroundTint">@android:color/white</item>
+        <item name="layout_constraintWidth_percent">0.7</item>
+    </style>
+
+    <style name="edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginStart">32dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:paddingStart">@dimen/dimen_8dp</item>
+        <item name="android:paddingEnd">@dimen/dimen_8dp</item>
+        <item name="android:background">@drawable/ic_blueborder_textbox</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+</resources>

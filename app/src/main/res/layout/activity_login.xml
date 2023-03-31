@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ac.id.unikom.codelabs.navigasee.mvvm.login.LoginActivity">
+
+    <data>
+        <variable
+            name="mViewModel"
+            type="ac.id.unikom.codelabs.navigasee.mvvm.login.LoginViewModel" />
+        
+        <variable
+            name="mListener"
+            type="ac.id.unikom.codelabs.navigasee.mvvm.login.LoginUserActionListener" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_160dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:src="@mipmap/ic_launcher"
+            app:layout_constraintBottom_toTopOf="@+id/btn_sobat_navigasee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_sobat_navigasee"
+            style="@style/button"
+            android:layout_width="264dp"
+            android:onClick="@{() -> mListener.login(`Sahabat`)}"
+            android:padding="0dp"
+            android:layout_marginTop="@dimen/dimen_64dp"
+            android:text="@string/login_as_voiye_buddy"
+            app:layout_constraintBottom_toTopOf="@+id/btn_supir_angkutan"
+            app:layout_constraintEnd_toEndOf="@+id/ic_launcher"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/ic_launcher"
+            app:layout_constraintTop_toBottomOf="@+id/ic_launcher"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_supir_angkutan"
+            style="@style/button"
+            android:layout_width="264dp"
+            android:onClick="@{() -> mListener.login(`Supir`)}"
+            android:padding="0dp"
+            android:text="@string/login_as_driver_public_transport"
+            app:layout_constraintBottom_toTopOf="@+id/btn_tuna_netra"
+            app:layout_constraintEnd_toEndOf="@+id/btn_sobat_navigasee"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/btn_sobat_navigasee"
+            app:layout_constraintTop_toBottomOf="@+id/btn_sobat_navigasee" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_tuna_netra"
+            style="@style/button"
+            android:layout_width="264dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="@{() -> mListener.login(`Tunanetra`)}"
+            android:text="@string/login_as_blind"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/btn_supir_angkutan"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="@+id/btn_supir_angkutan"
+            app:layout_constraintTop_toBottomOf="@+id/btn_supir_angkutan"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btn_google_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:visibility="gone"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+</layout>

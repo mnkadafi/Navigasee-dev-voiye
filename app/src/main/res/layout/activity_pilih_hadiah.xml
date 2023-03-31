@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".mvvm.dashboard_supir_sobat.pilih_hadiah.PilihHadiahActivity">
+
+    <!--TODO : Integrate databinding, mvvm, content description, accesibility ignore-->
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:onClick="onClick"
+        android:padding="0dp"
+        android:text="Pulsa Rp 20.000"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:onClick="onClick"
+        android:padding="0dp"
+        android:text="Pulsa Rp 25.000"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:onClick="onClick"
+        android:padding="0dp"
+        android:text="Pulsa Rp 50.000"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:onClick="onClick"
+        android:padding="0dp"
+        android:text="Pulsa Rp 75.000"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black" />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:onClick="onClick"
+        android:padding="0dp"
+        android:text="Pulsa Rp 100.000"
+        android:textAllCaps="true"
+        android:textColor="@android:color/black" />
+
+</LinearLayout>

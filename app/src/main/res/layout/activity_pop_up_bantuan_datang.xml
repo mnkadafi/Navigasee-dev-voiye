@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="mListener"
+            type="ac.id.unikom.codelabs.navigasee.mvvm.dashboard_supir_sobat.popup.bantuan_datang.BantuanDatangListener" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".mvvm.dashboard_supir_sobat.popup.bantuan_datang.PopUpBantuanDatang">
+
+        <ImageView
+            android:id="@+id/btn_close"
+            android:layout_width="@dimen/dimen_16dp"
+            android:layout_height="@dimen/dimen_16dp"
+            android:layout_gravity="end"
+            android:layout_margin="@dimen/dimen_8dp"
+            app:srcCompat="@drawable/ic_close_24dp" />
+
+        <ImageView
+            android:layout_width="@dimen/dimen_72dp"
+            android:layout_height="@dimen/dimen_72dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/dimen_16dp"
+            app:srcCompat="@drawable/chil_hand_on_the_hand_of_an_adult" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/popup_bantuan_datang"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_14sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_8dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:onClick="@{() -> mListener.datangiLangsung()}"
+            app:backgroundTint="#2B9AF3"
+            android:text="@string/bantu_dengan_mendatangi_langsung"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:padding="0dp"
+            android:text="@string/bantu_dengan_video_call"
+            android:onClick="@{() -> mListener.connectToRoom()}"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</layout>
