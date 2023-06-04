@@ -7,6 +7,10 @@ import ac.id.unikom.codelabs.navigasee.utilities.ROLE_SAHABAT
 import ac.id.unikom.codelabs.navigasee.utilities.ROLE_SOPIR
 import ac.id.unikom.codelabs.navigasee.utilities.extensions.showToast
 import ac.id.unikom.codelabs.navigasee.utilities.helper.Preferences
+import ac.id.unikom.codelabs.navigasee.webrtcnew.SocketRepository
+import ac.id.unikom.codelabs.navigasee.webrtcnew.kelas.CallNewActivity
+import ac.id.unikom.codelabs.navigasee.webrtcnew.model.MessageModel
+import android.content.Context
 import android.content.Intent
 import android.util.Log
 import android.widget.Toast
@@ -29,6 +33,8 @@ import kotlinx.coroutines.launch
  * </intent-filter>
  */
 class FcmService : FirebaseMessagingService() {
+
+    private val preferences = Preferences.getInstance()
 
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
         // [START_EXCLUDE]
@@ -155,7 +161,7 @@ class FcmService : FirebaseMessagingService() {
 
                         startActivity(intent)
                     }
-                } else if (!data.get("tokenVC").isNullOrEmpty()) {
+                } else if (!data.get("tokenVC").isNullOrEmpty()){
                     GlobalScope.launch(Dispatchers.Main) {
                         val tunanetraLauncher = TunanetraVideoCallLauncher()
                         val intent = tunanetraLauncher.buildIntent(this@FcmService, data)

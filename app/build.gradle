@@ -34,18 +34,18 @@ android {
 
     productFlavors {
         production {
-            buildConfigField "String", "BASE_URL", '"https://seismic-glow-381902.uc.r.appspot.com/"'
+            buildConfigField "String", "BASE_URL", '"https://voiyee.et.r.appspot.com/"'
             resValue "string", "app_name", "Voiye"
         }
         development {
-            buildConfigField "String", "BASE_URL", '"https://seismic-glow-381902.uc.r.appspot.com/"'
+            buildConfigField "String", "BASE_URL", '"https://voiyee.et.r.appspot.com/"'
             resValue "string", "app_name", "Voiye"
         }
     }
 }
 
 dependencies {
-    implementation project(':webrtc')
+    //implementation project(':webrtc')
     implementation "com.google.firebase:firebase-messaging:$rootProject.fcmVersion"
     implementation "com.google.android.gms:play-services-maps:$rootProject.gmsVersion"
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
@@ -81,7 +81,6 @@ dependencies {
     implementation "pub.devrel:easypermissions:$rootProject.easypermissionsVersion"
     implementation "de.hdodenhof:circleimageview:$rootProject.circleimageviewVersion"
 
-    implementation "org.webrtc:google-webrtc:$rootProject.googlewebrtcVersion"
 
     implementation "org.conscrypt:conscrypt-android:$rootProject.conscryptAndroidVersion"
 
@@ -96,11 +95,17 @@ dependencies {
     androidTestImplementation "com.google.truth:truth:$rootProject.truth"
     testImplementation "junit:junit:$rootProject.junitVersion"
 
+    implementation "androidx.preference:preference-ktx:$rootProject.preferenceKtxVersion"
+
 
     // https://mvnrepository.com/artifact/io.socket/socket.io-client
     implementation group: 'io.socket', name: 'socket.io-client', version: "$rootProject.socketioClientVersion"
 
-    implementation "androidx.preference:preference-ktx:$rootProject.preferenceKtxVersion"
+    //implementation "org.webrtc:google-webrtc:$rootProject.googlewebrtcVersion"
+
+    implementation 'com.mesibo.api:webrtc:1.0.5'
+    implementation 'org.java-websocket:Java-WebSocket:1.5.3'
+    implementation 'com.guolindev.permissionx:permissionx:1.6.1'
 
 }
 

@@ -91,26 +91,26 @@ class Preferences {
         return sharedPreferences.getString(STATUS_TUNANETRA, "")
     }
 
-    fun getRoomUrl() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_ROOM_SERVER_URL,
-            context.getString(org.appspot.apprtc.R.string.pref_room_server_url_default))
+//    fun getRoomUrl() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_ROOM_SERVER_URL,
+//            context.getString(org.appspot.apprtc.R.string.pref_room_server_url_default))
 
-    fun getResolution() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_RESOLUTION,
-            context.getString(org.appspot.apprtc.R.string.pref_resolution_default))
-
-    fun getFps() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_FPS,
-            context.getString(org.appspot.apprtc.R.string.pref_fps_default))
-
-    fun getVideoBitrateType() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_VIDEO_BITRATE_TYPE,
-            context.getString(org.appspot.apprtc.R.string.pref_maxvideobitrate_default))
-
-    fun getVideoBitrateValue() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_VIDEO_BITRATE_VALUE,
-            context.getString(org.appspot.apprtc.R.string.pref_maxvideobitratevalue_default))
-
-    fun getAudioBitrateType() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_AUDIO_BITRATE_TYPE,
-            context.getString(org.appspot.apprtc.R.string.pref_startaudiobitrate_default))
-
-    fun getAudioBitrateValue() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_AUDIO_BITRATE_VALUE,
-            context.getString(org.appspot.apprtc.R.string.pref_startaudiobitratevalue_default))
+//    fun getResolution() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_RESOLUTION,
+//            context.getString(org.appspot.apprtc.R.string.pref_resolution_default))
+//
+//    fun getFps() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_FPS,
+//            context.getString(org.appspot.apprtc.R.string.pref_fps_default))
+//
+//    fun getVideoBitrateType() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_VIDEO_BITRATE_TYPE,
+//            context.getString(org.appspot.apprtc.R.string.pref_maxvideobitrate_default))
+//
+//    fun getVideoBitrateValue() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_VIDEO_BITRATE_VALUE,
+//            context.getString(org.appspot.apprtc.R.string.pref_maxvideobitratevalue_default))
+//
+//    fun getAudioBitrateType() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_AUDIO_BITRATE_TYPE,
+//            context.getString(org.appspot.apprtc.R.string.pref_startaudiobitrate_default))
+//
+//    fun getAudioBitrateValue() = sharedPreferences.getString(PopUpBantuanDatang.KEY_PREF_AUDIO_BITRATE_VALUE,
+//            context.getString(org.appspot.apprtc.R.string.pref_startaudiobitratevalue_default))
 
     fun setWaiting(body: String) {
         editor.putString(WAITING_BODY, body)

@@ -8,6 +8,9 @@ import ac.id.unikom.codelabs.navigasee.mvvm.dashboard_supir_sobat.pilih_hadiah.P
 import ac.id.unikom.codelabs.navigasee.utilities.base.BaseActivity
 import ac.id.unikom.codelabs.navigasee.utilities.helper.EventObserver
 import ac.id.unikom.codelabs.navigasee.utilities.helper.Preferences
+import ac.id.unikom.codelabs.navigasee.webrtcnew.SocketRepository
+import ac.id.unikom.codelabs.navigasee.webrtcnew.kelas.CallNewActivity
+import ac.id.unikom.codelabs.navigasee.webrtcnew.model.MessageModel
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
@@ -16,6 +19,9 @@ class DashboardSupirSobatActivity : BaseActivity<DashboardViewModel, ActivityDas
     override fun tukarPoin() {
         startActivity(Intent(this, PilihHadiahActivity::class.java))
     }
+
+    private val preferences = Preferences.getInstance()
+    private var socketRepository: SocketRepository? = null
 
     private val PERMISSIONS_REQUEST_READ_FINE_LOCATION = 100
     private val viewModel: DashboardViewModel by viewModels {
@@ -29,6 +35,13 @@ class DashboardSupirSobatActivity : BaseActivity<DashboardViewModel, ActivityDas
         mParentVM = viewModel
 
         MyApplication.instance.startService()
+
+        socketRepository?.sendMessageToSocket(
+            MessageModel(
+                "store_user", preferences.getEmail(), "", null
+            )
+        )
+
     }
 
     override fun onCreateObserver(viewModel: DashboardViewModel) {

@@ -29,6 +29,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".webrtcnew.kelas.CallTunanetraActivity"
+            android:exported="true" />
+        <activity android:name=".webrtcnew.kelas.CallNewActivity"
+            android:exported="true"/>
+
         <activity
             android:name=".mvvm.login.BegPermissionModal"
             android:theme="@style/alert" />
@@ -105,8 +112,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".mvvm.splash_screen.SplashScreen"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
